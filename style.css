@@ -497,11 +497,14 @@ main {
     }
     
 }
-@media screen and (max-width: 1260px) {
+@media screen and (max-width: 480px) {
     .new-tweet {
         flex-wrap: wrap;
     }
     main {
         width:100%;
+    }
+    .side-feed {
+        width: 40%;
     }
 }
