@@ -32,6 +32,7 @@ header {
     width: 29%;
     height: 100%;
     position: fixed;
+    transition-duration: 0.7s;
 }
 
 .nav-links {
@@ -463,9 +464,10 @@ main {
     }
 
     main{
+        width:83%;
         margin-left: 10%;
     }
-
+    
     header span{
         display: none;
     }
@@ -505,9 +507,6 @@ main {
 @media screen and (max-width: 480px) {
     .new-tweet {
         flex-wrap: wrap;
-    }
-    main {
-        width:83%;
     }
     .main-flex {
         flex-direction: column;
