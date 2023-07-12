@@ -502,9 +502,17 @@ main {
         flex-wrap: wrap;
     }
     main {
-        width:100%;
+        width:83%;
+    }
+    .main-flex {
+        flex-direction: column;
+        margin-left: 20px;
+    }
+    .main-feed {
+        width: 100%;
     }
     .side-feed {
-        width: 40%;
+        width: 100%;
+        margin-bottom: 10px;
     }
 }
