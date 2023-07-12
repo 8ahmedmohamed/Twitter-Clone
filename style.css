@@ -451,6 +451,11 @@ main {
     justify-content: space-between;
 }
 
+@media screen and (max-width: 1200px) {
+    header{
+        padding: 10px 0 10px 5%;
+    }
+}
 @media screen and (max-width: 780px) {
     header{
         width: 10%;
